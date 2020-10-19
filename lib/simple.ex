@@ -9,4 +9,10 @@ defmodule Recursion do
   end
 end
 
-Recursion.print_multiple_times("HONK!", 5)
+a = "BOOP!"
+
+Recursion.print_multiple_times(a, 5)
+
+IO.inspect(a, binaries: :as_binaries)
+x = String.length(a)
+IO.puts(x)
